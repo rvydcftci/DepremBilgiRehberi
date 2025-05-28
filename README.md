@@ -8,10 +8,10 @@ The "Earthquake Information Guide" is a web-based disaster awareness and data ac
 
 
 👨‍💻 Proje Ekibi / Project Team
-Ümit DEMİR 
-Elif ERGEN 
-Rüveyda ÇİFTCİ 
-Aziz BOLAT
+-Ümit DEMİR 
+-Elif ERGEN 
+-Rüveyda ÇİFTCİ 
+-Aziz BOLAT
 
 🧩 Kullanılan Teknolojiler / Technologies Used
 Node.js
