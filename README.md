@@ -113,7 +113,7 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 ---
 
 
-### 📍 Safe Zones Screen
+### 📍 Safe Zone Screen
 
 <table>
   <tr>
@@ -146,7 +146,8 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 ---
 
 ## Developers
-- -Ümit DEMİR 
+
+- Ümit DEMİR 
 
 - Elif ERGEN 
 
@@ -154,6 +155,6 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 
 - Aziz BOLAT
 
-2024
+ 2024
 
 ---
