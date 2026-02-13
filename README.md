@@ -1,50 +1,89 @@
-🌍 Earthquake Information Guide
+EARTHQUAKE INFORMATION GUIDE🌍
 
 A web-based disaster awareness platform that provides real-time earthquake data, safe zone locations, and essential preparedness information.
 
+
 Features:
+
 📡 View recent earthquakes in real time
+
 🗺️ Interactive earthquake map with magnitude-based visualization
+
 🎯 Filter earthquakes by city, magnitude, and date
+
 📍 Locate nearby safe gathering areas
+
 📊 Earthquake statistics dashboard
+
 📚 Information center with preparedness guides and documents
+
 ☎️ Quick access to emergency contact numbers
 
+
+
 Technologies Used:
+
 Node.js
+
 Express.js
+
 MongoDB Atlas
+
 Handlebars (View Engine)
+
 HTML, CSS, JavaScript
 
 
+
+
 Database & Security:
+
 MongoDB Atlas is used as the backend. 
+
 Data is recommended to be backed up hourly. 
+
 Users can only view data; no edit permissions are granted.
+
+
 
 ⚙️ Installation & Setup:
 
+
 Install Dependencies / npm install
+
  
 Configure Environment Variables / Create a .env file in the root directory and add:
+
 PORT=3000
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 
+
 ⚠️ Replace:
+
 username → your MongoDB Atlas database user
+
 password → your MongoDB Atlas password
+
 earthquakeDB → your database name
 
+
+
 MongoDB Atlas Setup:
+
 Create a cluster in MongoDB Atlas
+
 Create a database user (Database Access)
+
 Add your IP address in Network Access
+
 Copy the connection string
+
 Paste it inside your .env file
 
+
 Run the Application / node app.js or npm start
+
+
 
 ## 🖼️ Application Screenshots
 
@@ -117,9 +156,14 @@ Run the Application / node app.js or npm start
 
 
 Developers:
+
 -Ümit DEMİR 
+
 -Elif ERGEN 
+
 -Rüveyda ÇİFTCİ 
+
 -Aziz BOLAT
+
 
 2024
