@@ -1,48 +1,125 @@
-Deprem Bilgi Rehberi / Earthquake Information Guide
+🌍 Earthquake Information Guide
 
-🌍 Proje Hakkında / About the Project
+A web-based disaster awareness platform that provides real-time earthquake data, safe zone locations, and essential preparedness information.
 
-"Deprem Bilgi Rehberi", Fırat Üniversitesi Yazılım Mühendisliği öğrencileri tarafından geliştirilmiş, MongoDB Atlas veritabanı kullanılarak web tabanlı bir afet farkındalık ve bilgi erişim sistemidir. Uygulama, kullanıcıların anlık deprem verilerine erişmesini, geçmiş depremleri analiz etmesini ve güvenli bölgelere dair bilgilere ulaşmasını sağlamaktadır.
+Features:
+📡 View recent earthquakes in real time
+🗺️ Interactive earthquake map with magnitude-based visualization
+🎯 Filter earthquakes by city, magnitude, and date
+📍 Locate nearby safe gathering areas
+📊 Earthquake statistics dashboard
+📚 Information center with preparedness guides and documents
+☎️ Quick access to emergency contact numbers
 
-The "Earthquake Information Guide" is a web-based disaster awareness and data access platform developed by Software Engineering students at Fırat University. It enables users to monitor recent earthquakes, analyze historical data, and find information about safe zones.
-
-
-👨‍💻 Proje Ekibi / Project Team
--Ümit DEMİR 
--Elif ERGEN 
--Rüveyda ÇİFTCİ 
--Aziz BOLAT
-
-🧩 Kullanılan Teknolojiler / Technologies Used
+Technologies Used:
 Node.js
 Express.js
 MongoDB Atlas
 Handlebars (View Engine)
 HTML, CSS, JavaScript
 
-🧠 Özellikler / Features
-📡 Anlık deprem verisi görüntüleme / Live earthquake data view
-📍 Şehir bazlı filtreleme / City-based filtering
-📊 Büyüklük, derinlik ve tarih filtreleme / Magnitude, depth, date filtering
-📌 Güvenli bölgelerin listesi / Safe zones listing
-📚 Bilgi köşesi: Deprem çantası, ilk yardım bilgileri / Earthquake bag & first-aid info
-🌐 Türkçe arayüz, çok dillilik için hazır yapı / Turkish interface, ready for multi-language
 
-🔐 Veritabanı ve Güvenlik / Database & Security
-MongoDB Atlas veritabanı kullanıldı.
-Saatlik yedekleme önerisiyle veri güvenliği vurgulandı.
-Kullanıcılar yalnızca görüntüleme yetkisine sahiptir, düzenleme yetkisi yoktur.
-Şifreleme önerisi ile veri ihlallerine karşı koruma sağlandı.
-MongoDB Atlas is used as the backend. Data is recommended to be backed up hourly. Users can only view data; no edit permissions are granted.
+Database & Security:
+MongoDB Atlas is used as the backend. 
+Data is recommended to be backed up hourly. 
+Users can only view data; no edit permissions are granted.
 
-📌 Gelecekte Planlanan Özellikler / Planned Features
-🗺️ İl, ilçe ve sokak bazlı güvenli bölge haritaları
-💬 Kullanıcı yorum ve değerlendirme alanı
-🌍 Çok dilli destek: İngilizce, Almanca, Arapça vb.
-🐞 Hata raporlama ve otomatik analiz sistemleri
-Future modules include advanced filtering, user feedback section, international language support, and error reporting integrations.
+⚙️ Installation & Setup:
+
+Install Dependencies / npm install
+ 
+Configure Environment Variables / Create a .env file in the root directory and add:
+PORT=3000
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
+
+⚠️ Replace:
+username → your MongoDB Atlas database user
+password → your MongoDB Atlas password
+earthquakeDB → your database name
+
+MongoDB Atlas Setup:
+Create a cluster in MongoDB Atlas
+Create a database user (Database Access)
+Add your IP address in Network Access
+Copy the connection string
+Paste it inside your .env file
+
+Run the Application / node app.js or npm start
+
+## 🖼️ Application Screenshots
+
+---
+
+### 🏠 Home Screens
+
+<table>
+  <tr>
+    <td><img src="images/giris.jpeg" width="350"/></td>
+    <td><img src="images/anasayfa.jpeg" width="350"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/anasayfa1.jpeg" width="350"/></td>
+    <td><img src="images/anasayfa2.jpeg" width="350"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="images/anasayfa3.jpeg" width="350"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🌍 Recent Earthquakes Screen
+
+<table>
+  <tr>
+    <td><img src="images/sondepremler.jpeg" width="350"/></td>
+    <td><img src="images/depremsiddeti.jpeg" width="350"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/depremsiddeti2.jpeg" width="350"/></td>
+    <td><img src="images/depremsiddeti3.jpeg" width="350"/></td>
+  </tr>
+</table>
+
+---
+
+
+### 📍 Safe Zones Screen
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/guvenlibolge.jpeg" width="700"/>
+    </td>
+  </tr>
+</table>
+---
+
+### 📚 Information Center Screen
+
+<table>
+  <tr>
+    <td><img src="images/bilgikosesi.jpeg" width="350"/></td>
+    <td><img src="images/bilgikosesi2.jpeg" width="350"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/bilgikosesi3.jpeg" width="350"/></td>
+    <td><img src="images/bilgikosesi4.jpeg" width="350"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="images/bilgikosesi5.jpeg" width="350"/>
+    </td>
+  </tr>
+</table>
+
+
+Developers:
+-Ümit DEMİR 
+-Elif ERGEN 
+-Rüveyda ÇİFTCİ 
+-Aziz BOLAT
 
 2024
-
-
-
