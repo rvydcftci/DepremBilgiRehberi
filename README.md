@@ -71,16 +71,13 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 ---
 
 ## Run the Application 
+```bash
 - node app.js 
 - npm start
-
+```
 ---
 
-## 🖼️ Application Screenshots
-
----
-
-### 🏠 Home Screens
+### 🏠 Home Screen
 
 <table>
   <tr>
