@@ -153,7 +153,7 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 
 - Elif ERGEN 
 
-- Rüveyda ÇİFTCİ 
+- Rüveyda ÇİFTCİ
 
 - Aziz BOLAT
 
