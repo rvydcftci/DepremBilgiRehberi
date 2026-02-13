@@ -1,89 +1,80 @@
-EARTHQUAKE INFORMATION GUIDE🌍
+# 🌍 Earthquake Information Guide
 
-A web-based disaster awareness platform that provides real-time earthquake data, safe zone locations, and essential preparedness information.
+A web-based disaster awareness platform that provides real-time earthquake data, interactive maps, safe zone locations, and essential preparedness resources.
 
+---
 
-Features:
+## 🚀 Features
 
-📡 View recent earthquakes in real time
+- 🌐 Real-time earthquake monitoring  
+- 🗺 Interactive earthquake map with magnitude-based visualization  
+- 🎯 Filter earthquakes by city, magnitude, and date  
+- 📍 Locate nearby safe gathering areas  
+- 📊 Earthquake statistics dashboard  
+- 📚 Information center with guides, videos, and downloadable documents  
+- 📞 Quick access to emergency contact numbers  
 
-🗺️ Interactive earthquake map with magnitude-based visualization
+---
 
-🎯 Filter earthquakes by city, magnitude, and date
+## 🛠 Technologies Used
 
-📍 Locate nearby safe gathering areas
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Handlebars (View Engine)  
+- HTML / CSS / JavaScript  
 
-📊 Earthquake statistics dashboard
+---
 
-📚 Information center with preparedness guides and documents
+## 🔐 Database & Security
 
-☎️ Quick access to emergency contact numbers
+- MongoDB Atlas is used as the backend database.  
+- Data is recommended to be backed up hourly.  
+- Users can only view data; no edit permissions are granted.  
 
+---
 
+## ⚙ Installation & Setup
 
-Technologies Used:
-
-Node.js
-
-Express.js
-
-MongoDB Atlas
-
-Handlebars (View Engine)
-
-HTML, CSS, JavaScript
-
-
-
-
-Database & Security:
-
-MongoDB Atlas is used as the backend. 
-
-Data is recommended to be backed up hourly. 
-
-Users can only view data; no edit permissions are granted.
-
-
-
-⚙️ Installation & Setup:
-
-
-Install Dependencies / npm install
-
+### 📦 Install Dependencies
+```bash
+npm install
+```
  
-Configure Environment Variables / Create a .env file in the root directory and add:
+## 🔧 Configure Environment Variables
+
+- Create a .env file in the root directory and add:
 
 PORT=3000
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/earthquakeDB
 
+## ⚠️ Replace:
 
-⚠️ Replace:
+- username → your MongoDB Atlas database user
+- password → your MongoDB Atlas password
+- earthquakeDB → your database name
 
-username → your MongoDB Atlas database user
+---
 
-password → your MongoDB Atlas password
+## ☁ MongoDB Atlas Setup
 
-earthquakeDB → your database name
+- Create a cluster in MongoDB Atlas
 
+- Create a database user (Database Access)
 
+- Add your IP address in Network Access
 
-MongoDB Atlas Setup:
+- Copy the connection string
 
-Create a cluster in MongoDB Atlas
+- Paste it inside your .env file
 
-Create a database user (Database Access)
+---
 
-Add your IP address in Network Access
+## Run the Application 
+- node app.js 
+- npm start
 
-Copy the connection string
-
-Paste it inside your .env file
-
-
-Run the Application / node app.js or npm start
-
-
+---
 
 ## 🖼️ Application Screenshots
 
@@ -134,6 +125,7 @@ Run the Application / node app.js or npm start
     </td>
   </tr>
 </table>
+
 ---
 
 ### 📚 Information Center Screen
@@ -154,16 +146,17 @@ Run the Application / node app.js or npm start
   </tr>
 </table>
 
+---
 
-Developers:
+## Developers
+- -Ümit DEMİR 
 
--Ümit DEMİR 
+- Elif ERGEN 
 
--Elif ERGEN 
+- Rüveyda ÇİFTCİ 
 
--Rüveyda ÇİFTCİ 
-
--Aziz BOLAT
-
+- Aziz BOLAT
 
 2024
+
+---
